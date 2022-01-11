@@ -42,3 +42,4 @@ Start-Sleep -s 1
 Get-ChildItem $LocationFolder*.xls | foreach { Remove-Item -Path $_.FullName }
 
 #Agora é só colocar o arquivo gerado no AD, na pasta de verificação do Script "BloqueioDesbloqueioFerias.ps1"
+exit

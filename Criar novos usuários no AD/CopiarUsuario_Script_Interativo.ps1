@@ -1,6 +1,4 @@
-﻿#$User = Get-AdUser -Identity (Read-Host "Copiar do usuário (nome.sobrenome)") -Properties *
-
-$firstname = Read-Host "Primeiro Nome"
+﻿$firstname = Read-Host "Primeiro Nome"
 $Lastname = Read-Host "Resto do Nome"
 $NewUser = Read-Host "Username (nome.sobrenome)"
 $NewName = "$firstname $lastname"
