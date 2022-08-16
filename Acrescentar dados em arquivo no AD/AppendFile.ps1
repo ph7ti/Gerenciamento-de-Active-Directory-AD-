@@ -5,7 +5,7 @@ $LocationFolder = "$HOME\Documentos\Excel to CSV\"
 #Identifica o arquivo que possui o formato .CSV 
 $file = Get-ChildItem -Name $LocationFolder*.csv
 #Arquivo destino, presente no servidor remoto (ele precisa existir inicialmente)
-$remotefile = "Bloqueio de férias.csv"
+$remotefile = "Bloqueio de férias.csv" 
 #Origem + Arquivo
 $pathfile = "$LocationFolder$file"
 #Destino temporário do arquivo
